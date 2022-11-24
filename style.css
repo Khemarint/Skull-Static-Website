@@ -18,6 +18,7 @@ body{
 	position: fixed;
 	top: -80px;
 	box-shadow: 2px 2px 50px 3px #FDBE00;
+	background-size: cover;
 	transition: background-image 4s;
 }
 .Menu:hover{
@@ -90,21 +91,21 @@ body{
 	text-decoration: none;
 	padding: 2px 10px;
 	border-radius: 10%;
-	box-shadow: 0 0 15px 5px #FE0D00; 
 }
 .List2 ul li a{
 	color: #FE0D00;
 	text-decoration: none;
 	padding: 2px 10px;
 	border-radius: 10%;
-	box-shadow: 0 0 15px 5px #FE0D00; 
 }
 .List ul li:hover a{
 	color: black;
 	background-color: #FDBE00;
+	box-shadow: 0 0 15px 5px #FE0D00; 
 }
 .List2 ul li:hover a{
 	color: black;
+	box-shadow: 0 0 15px 5px #FE0D00; 
 	background-color: #FDBE00;
 }
 .sub-menu{
