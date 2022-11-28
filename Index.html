@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="jquery.min.js"></script>
+</head>
+
+<body>
+	<div class="Menu">
+		<div class="List">
+			<ul>
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">Shop</a>
+					<div class="sub-menu">
+						<ul>
+							<li>
+								<a href="#">T-shirt</a>
+							</li>
+							<li>
+								<a href="#">Cap</a>
+							</li>
+							<li>
+								<a href="#">Hoddie</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+	</div>
+		<div class="logo">
+			<nav id="logo"></nav>
+		</div>
+		<div class="List2">
+			<ul>
+				<li>
+					<a href="#">About</a>
+				</li>
+				<li>
+					<a href="#">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="slide">
+		<img src="bak.gif" alt="background">
+		<div class="H1">
+			<h1>Welcome to 
+				<br> Wangster 
+				<a id="underline">
+					Paradise
+				</a>
+				<p style="text-align: justify; padding: 10px;">What a beautiful day! You have come to the right place. we have been waiting for a hero like you. Hopefully that you are the one who could brighten my future just like the flame of fire.</p>
+				<button href="#" class="btn">Join us</button>
+			
+			</h1>
+		</div>
+		<div class="skeleton">
+			<img src="skeleton-animated-gif.gif">
+		</div>
+		<div class="skeleton3">
+			<img src="skeleton-animated-gif.gif">
+		</div>
+		
+	</div>
+	<div class="Mysterious">
+	</div>
+	<div class="big-content">
+		<div class="text">
+			<h3>Information</h3>
+			<p>Check the Information before join us and become a Wangster</p>
+		</div>
+	</div>
+	<div class="background-photo">
+		<div class="photo">
+			<div class="left">
+				<div class="left-menu" id="active">
+					<a href="#">Introduction</a>
+				</div>
+				<div class="left-menu" onClick="Experiene()">
+					<a>Experiene</a>
+				</div>
+				<div class="left-menu" onClick="History()">
+					<a>History</a>
+				</div>
+				<div class="left-menu" onClick="Project()">
+					<a>Project</a>
+				</div>
+			</div>
+			<div class="right">
+				<div class="pic-promo">
+					<img src="hologram skull.gif">
+					<div class="detail">
+						<h5> Aegon </h5>
+						<p>
+							Age: 18 <br>
+							Sex: Male
+						</p>
+						<h4> Founder </h4>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+	<div class="big-content">
+		<div class="text">
+			<h3>Gallery</h3>
+			<p>Check all of Wangster photos </p>
+		</div>
+	</div>
+	<div class="background-photo">
+		<div class="big-photo">
+			<div class="gallery">
+			<img src="Image/1214.jpg">
+			</div>
+			<div class="gallery">
+			<img src="Image/2 skull.jpg">
+			</div>
+			<div class="gallery">
+			<img src="Image/3.skull.jpg">
+			</div>
+			<div class="gallery">
+			<img src="Image/4 skull.jpg">
+			</div>
+			<div class="gallery">
+			<img src="Image/5 skull.jpg">
+			</div>
+			<div class="gallery">
+			<img src="Image/smoking_skull_wearing_bucket_hat_vector [Converted].jpg">
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<img src="float out skull.gif">
+		<div class="footer-info" id="info1">
+			<h5>About us</h5>
+			<p>Join Us now to become Wangster of paradise.</p>
+		</div>
+		<div class="footer-info" id="info2">
+			<h5>Contact</h5>
+			<p>
+				Anlong vil village, Steung sangkea
+				commune,  Battambang province.<br>
+				(+855) 98 764 543/ 98 345 654<br>
+				Khemrent25@gmail.com
+				
+			</p>
+		</div>
+		<div class="footer-info" id="info3">
+			<h5>Open Hours</h5>
+			<p>
+				EVERYDAY : OPENED<br>
+				MON-FRI  : 8AM-8PM<br>
+				SAT-SUN  : 8AM-7PM
+			</p>
+		</div>
+		<div class="footer-bg">
+		</div>
+		<div class="footer-banner">
+			<div class="Last-List">
+				<ul>
+					<li class="discord">
+						<a href="#">
+							<img src="discord (1).png" alt="discord">
+						</a>
+					</li>
+					<li class="facebook">
+						<a href="#">
+							<img src="Image/facebook .png" alt="facebook"
+							id="facebook">
+						</a>
+					</li>
+					<li class="instagram">
+						<a href="#">
+							<img src="Image/instagram (1).png" alt="instagram">
+						</a>
+					</li>
+					<li class="pinterest">
+						<a href="#">
+							<img src="pinterest.png" alt="pinterest">
+						</a>
+					</li>
+					<li class="github">
+						<a href="#">
+							<img src="Image/git.png" alt="github">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<p>All right reserved. © 2022 Wangster paradise</p>
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+	function Experiene(){
+	$('.photo').load('Experiene.html');
+	}
+	function Introduction(){
+	$('.photo').load('Introduction.html');
+	}
+	function History(){
+	$('.photo').load('History.html');
+	}
+	function Project(){
+	$('.photo').load('Project.html');
+	}
+</script>
