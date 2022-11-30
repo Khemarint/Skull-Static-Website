@@ -418,44 +418,30 @@ body{
 }
 .footer-banner .Last-List ul{
 	list-style: none;
+	display: flex;
+	justify-content: center;
 }
 .footer-banner .Last-List .discord a{
 	width: 40px;
 	height: 40px;
-	position: absolute;
-	top: -10%;
-	right: 43%;
-	margin: 0 2px;
-}
+	margin: 0 5px;
 .footer-banner .Last-List .facebook a{
 	width: 40px;
 	height: 40px;
-	position: absolute;
-	top: -10%;
-	left: 42%;
-	margin: 0 2px;
+	margin: 0 5px;
 }
 .footer-banner .Last-List .instagram a{
 	width: 40px;
 	height: 40px;
-	position: absolute;
-	top: -10%;
-	left: 45%;
-	margin: 0 2px;
+	margin: 0 5px;
 }
 .footer-banner .Last-List .pinterest a{
 	width: 40px;
 	height: 40px;
-	position: absolute;
-	top: -10%;
-	right: 46%;
-	margin: 0 2px;
+	margin: 0 5px;
 }
 .footer-banner .Last-List .github a{
 	width: 40px;
 	height: 40px;
-	position: absolute;
-	top: -10%;
-	left: 48%;
-	margin: 0 2px;
+	margin: 0 5px;
 }
